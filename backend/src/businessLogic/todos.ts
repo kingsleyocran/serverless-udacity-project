@@ -6,7 +6,7 @@ import { createLogger } from "../utils/logger";
 import * as uuid from "uuid";
 //import * as createError from "http-errors";
 import { TodoUpdate } from "../models/TodoUpdate";
-import { getAttachmentUrl, getUploadUrl } from "../dataLayer/fileStoreUtils";
+import { getAttachmentUrl, getUploadUrl } from "../fileStore/fileStoreUtils";
 
 //Implement businessLogic
 
