@@ -26,6 +26,7 @@ provider:
     TODOS_CREATED_AT_INDEX: CreatedAtIndex
     ATTACHMENT_S3_BUCKET: serverless-todo123412-bucket-${self:provider.stage}
     SIGNED_URL_EXPIRATION: 300
+    JWKS_URL: https://dev-or8nt85f.us.auth0.com/.well-known/jwks.json
 
   logs:
     # Enable API Gateway logs
